@@ -1,25 +1,25 @@
 # Community Software Analysis Proposal
 Please edit this file and push to your repository.
 
-## Software: *Phonemizer*
+## Software: *word2vec* 
 
-Phonemizer is a python library that allows users to break words/sentences into phonemes (which are considered the smallest unit of language, usually a single sound that differentiates one word from another). Based on the [JOSS Paper](https://joss.theoj.org/papers/10.21105/joss.03958) for this project, it appears that the software has been used as a preprocessing step in a couple of text-to-speech projects (the phonemes generated can then be spoken), as well as in a few other projects. This software's audience is primarily researchers in the fields of natural language processing or linguistics. 
+word2vec provides a Python interface to the word2vec language processing technique created by Google in 2013, which models words as vectors and uses cosine similarity to determine their similarity. It is able to detect words that have similar/synonymous meanings while also being able to suggest words for sentences based on context. 
 
 ### Stats
 
 | Description | Your answer |
 |---------|-----------|
-| Repository URL | https://github.com/bootphon/phonemizer  |
-| Main/documentation website | https://bootphon.github.io/phonemizer/index.html   |
-| Year project was started | 2015  |
-| Number of contributors in the past year | 3 |
-| Number of contributors in the lifetime of the project | 10 |
-| Number of distinct affiliations | 634 (users?) |
+| Repository URL | https://github.com/danielfrg/word2vec |
+| Main/documentation website | https://nbviewer.org/github/danielfrg/word2vec/blob/main/examples/word2vec.ipynb  |
+| Year project was started | 2013  |
+| Number of contributors in the past year | 1 |
+| Number of contributors in the lifetime of the project | 17 |
+| Number of distinct affiliations | 10+ |
 | Where do development discussions take place? | GitHub issues |
-| Typical number of emails/comments per week? | It depends, on average about 1-2 times per month a new pull request/issue is opened  |
-| Typical number of commits per week? | about 1 per week when active, but hasn't been updated since July of last year |
-| Typical commit size | not very big, about 1 file and 10-12 lines of code per commit for the latest ones (seems project is mostly finished) |
-| How does the project accept contributions? | pull requests |
+| Typical number of emails/comments per week? | It depends, seems like every few months theres a new issue opened/closed   |
+| Typical number of commits per week? | about 1 per week when active, but hasn't been updated since Nov of last year |
+| Typical commit size | not very big recently about 1 file and 10-12 lines of code per commit for the latest ones (seems project is mostly finished) |
+| How does the project accept contributions? | pull requests/issues |
 | Does the project have an automated test suite? | yes |
 | Does the project use continuous integration? | yes |
 | Are any legal/licensing steps required to contribute? | no |
@@ -29,9 +29,9 @@ Phonemizer is a python library that allows users to break words/sentences into p
 Check the following boxes when complete or add a note below if you
 encountered a problem.
 
-- [-] I have installed the software
-- [-] I have run at least one example
-- [-] I have run the test suite
+- [x] I have installed the software
+- [x] I have run at least one example
+- [x] I have run the test suite
 - [ ] The test suite passes
 
 ### Notes/concerns/risks
@@ -43,13 +43,7 @@ the project requires a contributor license agreement or other
 procedural steps, please explain here.  "None at this time" is
 acceptable for this question.
 
-Only concerns would be that:
-
-(1) the software hasn't been updated since last year, this doesn't meet the criteria listed in the README. However, after looking through it, I believe that it is still of reasonably high quality 
-
-(2) the test suite has a single failure on my machine, might be related to the MacOS failure shown in Github (as I'm running a Mac). Package seems to work fine otherwise though and can be easily imported/run in Jupyter.  
-
-(3) I'm not sure how relevant the software is to the class material, I'm pretty sure I could find some way to incorporate it (or one of the backend libraries it uses) but it might be tough especially since I don't have a background in NLP. 
+Only concern would be that the software hasn't been updated since last year, which doesn't meet the criteria listed in the README. The project seems "finished", so there haven't been a lot of major commits since 2015-16. However, after looking through it, I believe that it is still of reasonably high quality. I also haven't been able to get the test suite to pass completely but the package seems to be working fine in jupyter. 
 
 #### Note on copyright
 Students retain copyright on any work done in completion of a CU
