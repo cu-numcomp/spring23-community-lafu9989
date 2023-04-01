@@ -9,7 +9,7 @@ word2vec provides a Python interface to the word2vec language processing techniq
 
 | Description | Your answer |
 |---------|-----------|
-| Repository URL | https://github.com/danielfrg/word2vec |
+| Repository URL | https://github.com/danielfrg/word2vec (note: the official code is available at https://code.google.com/archive/p/word2vec/ but this repository provides a python hook so it can be run in Jupyter) |
 | Main/documentation website | https://nbviewer.org/github/danielfrg/word2vec/blob/main/examples/word2vec.ipynb  |
 | Year project was started | 2013  |
 | Number of contributors in the past year | 1 |
